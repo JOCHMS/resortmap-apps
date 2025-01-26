@@ -1,0 +1,21 @@
+name: resortMobileApp
+version: 1.0.0
+description: Mobile application for [RESORT_NAME]
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  riverpod: ^1.0.0
+  dio: ^4.0.0
+  geolocator: ^7.0.0
+  cached_map_data_source: ^2.0.0
+  flutter_map: ^3.0.0
+  icons: ^0.9.0
+
+dev_dependencies:
+  test: ^2.1.0
+  flutter_test: sdk:flutter
+  firebase_analytics: ^5.0.0
